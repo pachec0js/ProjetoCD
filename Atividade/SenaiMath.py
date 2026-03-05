@@ -1,4 +1,4 @@
-numero = float(input("Digite o numero para saber o exponencial: "))
+
 
 def exponencial(x, k=100):
     resultado = 1.0 
@@ -10,4 +10,4 @@ def exponencial(x, k=100):
     
     return resultado
 
-print(f"e^{numero} = {exponencial(numero):.6f}")
+print(f"e^{5} = {exponencial(5):.6f}")
